@@ -4,9 +4,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class WebSocketService {
-  // WEBSOCKET_URL: string = 'wss://echo.websocket.org';
-  WEBSOCKET_URL: string = 'ws://localhost:8000/inference';
-  // WEBSOCKET_URL: string = 'ws://13.235.27.172:8000/inference';
+  WEBSOCKET_URL: string = 'ws://13.235.27.172:8000/inference';
+
+  // WEBSOCKET_URL: string = 'ws://localhost:8000/inference';
 
   webSocket: WebSocket;
   webSocketConnected: boolean = false;
